@@ -7,17 +7,17 @@ const arrLetters = ['T','R','W','A','G','M','Y','F','P','D','X','B','N','J','Z',
 const getValueFromUser = () => {
 
   do {
-    var dniNumber = prompt("Enter a number between 0 and 9999999");
-    if (dniNumber > 0 && dniNumber <= 99999999 ) {
+    var dniNumber = prompt("Enter a number between 0 and 99999999");
+    if ( dniNumber > 0 && dniNumber <= 99999999 ) {
       dniNumber = Number(dniNumber);
       identityLetter = arrLetters[dniNumber % 23];
       break
-    } else if ( dniNumber != undefined) {
+    } else if ( dniNumber != undefined ) {
       alert('You must to enter a number');
     }
   }
 
-  while ( dniNumber != null)
+  while ( dniNumber != null )
 
 };
 
