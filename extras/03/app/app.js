@@ -4,7 +4,7 @@ let arrayVowels = null;
 
 const getTextFromUser = () => {
   const vowels   = /[aeiou]/gi;
-  let textUser   = prompt ('Intruduce una frase'),
+  let textUser   = prompt ('Introduce una frase'),
   arrayUser      = [...textUser],
   result         = null,
   firstVowel     = null;
