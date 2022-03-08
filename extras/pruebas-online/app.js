@@ -1,17 +1,35 @@
-let result = 0;
+//************************* */ Función sencilla que multiplica
 
-function multiply(a, b) {
-  return result = a * b;
-}
+// let result = 0;
 
-multiply(2, 4);
-console.log(result);
+// function multiply(a, b) {
+//   return result = a * b;
+// }
 
-newArr = '';
+// multiply(2, 4);
+// console.log(result);
 
-const disemvowel = (str) => {
-   return newArr = str.replace(/[aeiou]/gi, '');
-}
+//************************* */ Sacar lass vocales de un arr
 
-disemvowel('Paloma es una crack');
-console.log(newArr);
+// newArr = '';
+
+// const disemvowel = (str) => {
+//    return newArr = str.replace(/[aeiou]/gi, '');
+// }
+
+// disemvowel('Me está saliendo poco a poco');
+// console.log(newArr);
+
+
+//************************* */ Eliminar elementos de un array que no sean números
+// let newArray = [];
+
+
+// const filter_list = (arr) => {
+//   newArray = arr.filter(function(n) {
+//     return typeof n === "number";
+//   });
+//   return newArray;
+// }
+
+// console.log(filter_list([1, 'a', 'b', 0, 15]));

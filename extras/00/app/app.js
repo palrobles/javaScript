@@ -48,7 +48,7 @@
 const result = document.querySelector('#result');
 let resultSum = 0;
 
-//SARA
+//*********************************************************************SARA
 //Pedir números
 
 const getValueFromUser = () => {
@@ -73,3 +73,52 @@ const getValueFromUser = () => {
 
 
 getValueFromUser();
+
+
+//*********************************************************************SARA SIMPLIFICANDO MI LÓGICA
+
+// Variables
+
+// const result = document.querySelector('#result');
+// let dataResult = 0;
+
+//Pedir números
+
+// const getValueFromUser = () => {
+//   let data = [];
+//   do {
+//     number = prompt('Enter a number');
+//     if (isNaN(number)) {
+//       window.alert('You must to enter a number');
+//     } else if(number !== null){
+//       data.push(parseInt(number));
+//     }
+//   }
+
+//   while ( number != null)  
+//   if(data.length > 0)
+//   {
+//     sumData(data);
+//   }
+// };
+
+
+
+//Pintar la suma de todos los números
+
+//.reduce para sumar los valores de un arr.
+
+
+
+// const sumData = ( data ) => {
+//   dataResult = data
+//     .reduce((firstNumber, lastNumber) => {
+//       return firstNumber+lastNumber
+//     })
+//   console.log(typeof dataResult);
+//   result.innerHTML = `The result is ${dataResult}`;
+// };
+
+
+
+// getValueFromUser();
