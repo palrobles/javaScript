@@ -1,0 +1,10 @@
+Ejercicio 01
+Has hecho una compra y sabes el precio del producto y su iva. Haz una función que calcule el precio total que vas a pagar por tu compra.
+Para calcular el total debes sumar al precio el resultado de multiplicas el precio por el iva y dividir por 100.
+
+Ejercicio 02
+Escribe una funcion que dado un número nos devuelva true si es un número par y false si es un número impar.
+
+Ejercicio 03
+Escribir una funcion que intercambie el valor de dos variables. 
+Al final la primera variable tiene que tener el valor de la segunda y la segunda el valor de la primera

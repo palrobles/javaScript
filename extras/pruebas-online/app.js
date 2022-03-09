@@ -33,3 +33,16 @@
 // }
 
 // console.log(filter_list([1, 'a', 'b', 0, 15]));
+
+
+//****************************************** */ Devuelve el valor máximo y mínimo de un array
+
+// const getMinMaxWithMath = (arr) => {
+//   let minimum = Math.min(...arr);
+//   let maximum = Math.max(...arr);
+//   let result =  ([minimum, maximum]); 
+//   return result;
+// }
+
+// console.log('getMinMaxWithMath ', getMinMaxWithMath([10,3,8,1,33]));
+
