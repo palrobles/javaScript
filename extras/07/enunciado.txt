@@ -1,0 +1,4 @@
+Crear un array para guardar los nombres de los días de la semana, empezando por 0 para el domingo.
+Para comprobar el funcionamiento pide al usuario un número entre 0 y 6 y devuelve el nombre del día. 
+Validar que el dato introducido este entre 0 y 6.
+

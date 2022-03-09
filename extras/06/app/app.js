@@ -1,14 +1,18 @@
 const sum = (first, second) => {
-  let result = 0;
 
-  if( (Number(first) && Number(second))  || (first === 0 || second === 0)) {
-    return result = first + second;
+  if( !isNaN(first) && !isNaN(second)) {
+    return first + second;
   } else {
     return console.log('Los valores no son números');
   };
 
-  // return (Number(first) && Number(second))  || (first === 0 || second === 0) ? result = first + second : console.log('Los valores no son correctos');
+  // return (!isNaN(first) && !isNaN(second)) ? first + second : console.log('Los valores no son correctos');
 }
 
 console.log(sum (25, 5));
+console.log(sum (0, 0));
+console.log(sum (10, 0));
+console.log(sum ('a', 'b'));
+console.log(sum (' ', ' '));
+
 
