@@ -1,0 +1,2 @@
+Dada una lista de varios array encontrar el valor mínimo en cada uno de ellos y sumarlos.
+su tarea es encontrar la suma de los valores mínimos de cada fila.
