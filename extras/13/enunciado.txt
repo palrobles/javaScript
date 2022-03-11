@@ -1,0 +1,2 @@
+Escribe una función que elimine de un array o una lista de arrays el 
+elemento de menor valor sin modificar el valor del array original.
