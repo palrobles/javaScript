@@ -5,13 +5,33 @@
 
   while (getNumber !== null) {
     getNumber = prompt('Introduce un número');
-    if(Number(getNumber)) {
-        totalResult += parseInt(getNumber);
-    } else if (getNumber === null) {
-        break
-    } else {
-        alert('Caracter no válido');
-    }
+
+    // if(getNumber != null) {
+    //   if(parseInt(getNumber)) {
+    //     totalResult += parseInt(getNumber);
+    //   } else {
+    //     alert('Caracter no válido');
+    //   }  
+    // }
+  
+  // ***********************************************************
+
+    if(parseInt(getNumber)) {
+      totalResult += parseInt(getNumber);
+    } else if (getNumber != null){
+      alert('Caracter no válido');
+    }  
+
+  // ***********************************************************
+ 
+    // if(Number(getNumber) && getNumber != null) {
+    //     totalResult += parseInt(getNumber);
+    // // } else if (getNumber === null) {
+    // //     break
+    // } else {
+    //     alert('Caracter no válido');
+    // }
   }
+
 
 divResult.innerHTML = totalResult;
