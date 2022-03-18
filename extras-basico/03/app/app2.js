@@ -17,6 +17,6 @@ for(i = 0; i < fraseMin.length; i++) {
     }
   }
   if (founded === true) {
-    break
+    break;
   }
 }

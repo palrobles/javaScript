@@ -1,12 +1,10 @@
-
-
 const factorial = (num) => {
-  let totalResult = 0;
-  for(i = 0; i < num; i++) {
-    totalResult = num * num[i];
+  let totalResult = 1;
+  
+  for(i= 1; i <= num; i++) {
+    totalResult = totalResult * i;
   }
-  console.log(totalResult);
   return totalResult;
 };
 
-factorial(5);
+console.log(factorial(5));
